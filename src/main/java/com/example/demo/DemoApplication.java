@@ -12,7 +12,7 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
-        return "Hello World coming from Manav after adding webhook-1!";
+        return "Hello World coming from Manav after adding webhook!";
     }
 
     public static void main(String[] args) {
